@@ -1,0 +1,3 @@
+﻿  Player.cpp
+C:\Users\riley\source\repos\nilEngine\Player.cpp(20,1): warning C4715: 'Player::statusToString': not all control paths return a value
+  nilEngine.vcxproj -> C:\Users\riley\source\repos\nilEngine\x64\Debug\nilEngine.exe
