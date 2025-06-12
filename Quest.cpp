@@ -23,17 +23,3 @@ void Quest::complete() {
 void Quest::printStatus() {
 	cout << "Quest Name: " << name << "\nDescription: " << description << "\nState: " << qstate << "\nType: " << qtype << "\n";
 }
-
-void TalkQuest::start() {
-	cout << name << " Started\n";
-	qstate = Started;
-}
-
-void TalkQuest::complete() {
-	cout << name << " Finished\n";
-	qstate = Finished;
-}
-
-void TalkQuest::printStatus() {
-	cout << "Quest Name: " << name << "\nDescription: " << description << "\nState: " << qstate << "\nType: " << qtype << "\n";
-}

@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cstddef>
 
-enum pStatus {Alive, Dead};
+enum pStatus {pAlive, pDead};
 
 class Player {
 	protected:

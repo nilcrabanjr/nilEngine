@@ -14,8 +14,8 @@ Player::Player(pStatus x, string y, string z, int q, int o, int p) {
 
 string Player::statusToString() {
 	switch (pstatus) {
-		case Alive: return "Alive";
-		case Dead: return "Dead";
+		case pAlive: return "Alive";
+		case pDead: return "Dead";
 	}
 }
 
@@ -24,7 +24,7 @@ void Player::checkStatus() {
 }
 
 void Player::kill() {
-	pstatus = Dead;
+	pstatus = pDead;
 }
 
 void Player::printPlayer() {
